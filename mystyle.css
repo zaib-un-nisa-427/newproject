@@ -1,0 +1,340 @@
+html{
+scroll-behavior: smooth;
+}
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body{
+margin: 0;
+padding: 0;
+font-family: arial;
+}
+/*------------------------------navbar starts----------------------------------------*/
+nav{
+    width: 100%;
+    background:orange;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style:none;
+
+}
+li{
+    float: right;
+
+}
+ a{
+    padding: 10px;
+    width: 100px;
+    display:block;
+    text-decoration: none;
+    color: white;
+    text-transform: none;
+    font-weight: bold;
+
+}
+ li a:hover:not(.active) {
+    background-color:white;
+    color:orange;
+ }
+ /*---------------------------------navbar ends-------------------------------------*/
+ /*---------------------------------home starts-------------------------------------*/
+#section1{
+    height: 700px;
+    display:inline-block ;
+    width: 100%;
+    
+}
+
+.text {
+  color: #0f0f0f;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+
+
+/*--------------------------------------homme ends--------------------------------*/
+/*------------------------------------about us starts----------------------------------*/
+#section2{
+    height:700px;
+    background: white;
+    width: 100%;
+    padding: 20px 40px 40px;
+}
+
+.vl {
+  border-left: 6px solid skyblue;
+  height: 250px;
+ 
+}
+.container1. .row1 .text-center h2 {
+color: skyblue;
+font-weight: bold;
+
+}
+.container1. .row1 .text-center p {
+  color: blue;
+  text-align: justify;
+
+}
+.img-wrap img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+/*-----------------------------------about us ends-----------------------------------*/
+
+/*------------------------------portfolio section starts----------------------------------------*/
+#section3{
+    height: 1500px;
+    background: white;
+    display: inline-block;
+    width: 100%;
+}
+    .row {
+      margin: 8px -16px;
+    }
+    
+    
+    .row,
+    .row > .column {
+      padding: 8px;
+    }
+    
+    
+    .column {
+      float: left;
+      height: 350px;
+      width: 33.33%;
+      padding: 5px;
+    }
+    
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+   
+    .content {
+      background-color: white;
+      padding: 10px;
+    }
+    
+    
+    @media screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+      }
+    }
+    
+    
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+}
+
+
+/*--------------------------------------portfolio section ends--------------------------------*/
+/*---------------------------------blog section starts-------------------------------------*/
+#section4{
+    height: 700px;
+    background: whitesmoke;
+    display: inline-block;
+    width: 100%;
+}
+
+.team-section .team-items .item .inner .info p a{
+  font-size: 16px;
+  text-align: justify;
+	font-weight: 400;
+  color: blue;
+	margin:10px 0 0;
+}
+
+
+
+/*-----------------------------------blog section end-----------------------------------*/
+
+/* --------------------team section starts--------------------------------------------*/
+#section5{
+    height: 700px;
+    background: rgb(248, 244, 244);
+    display: inline-block;
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+.team-section{
+	background-color:white;
+	min-height: 100vh;
+	padding:70px 15px 30px;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.team-section .section-title{
+	flex-basis: 100%;
+	max-width: 100%;
+	margin-bottom: 70px;
+}
+
+.team-section .section-title h1{
+	font-size: 40px;
+	text-align: center;
+	margin:0;
+	color: orange;
+	font-weight: 700;
+}
+
+
+.team-section .team-items{
+	
+	flex-basis: 100%;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.team-section .team-items .item{
+ flex-basis: calc(25% - 30px);
+ max-width: calc(25% - 30px);
+ transition: all .5s ease;
+ margin-bottom: 40px;
+}
+.team-section .team-items .item img{
+  display: block;
+  height: 300px;
+	width: 100%;
+	border-radius: 8px;
+}
+
+.team-section .team-items .item .inner{
+	position: relative;
+	z-index: 11;
+	padding:0 15px;
+}
+.team-section .team-items .item .inner .info{
+	background-color:whitesmoke;
+	text-align: center;
+	padding: 20px 15px;
+	border-radius:8px;
+	transition: all .5s ease;
+	margin-top: -40px;
+}
+.team-section .team-items .item:hover  .info{
+    transform: translateY(-20px);
+}
+.team-section .team-items .item:hover{
+ transform: translateY(-10px);	
+}
+.team-section .team-items .item .inner .info h5{
+	margin:0;
+	font-size: 18px;
+	font-weight: 600;
+	color:black;
+}
+.team-section .team-items .item .inner .info p{
+  font-size: 16px;
+  text-align: justify;
+	font-weight: 400;
+	color:black;
+	margin:10px 0 0;
+}
+/*--------------------------------------- Team section end ------------------------------------------- */
+
+
+/* ---------------------------------------Contact us Section Starts---------------------------------------*/
+#section6{
+    height: 500px;
+    background: whitesmoke;
+    display: inline-block;
+    width: 100%;
+}
+h1{
+    margin: 100px;
+    text-align: center;
+    padding: 0;
+    color: orange;
+    font-weight: bold;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  input[type=submit] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    background:orange;
+    color: white;
+    font-weight: bold;
+  }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 40px 0;
+  
+  font-size: 30px;
+
+}
+
+ .div1 h2{
+  background-color: white;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+font-weight: bold;
+  padding: 0px;
+  font-size: 40px;
+  color: orange;
+  
+}
+
+/* ---------------------------------------Contact us Section end---------------------------------------*/
+
+
